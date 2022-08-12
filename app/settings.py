@@ -8,7 +8,7 @@ from datetime import timedelta
 BASE_DIR = Path(__file__).resolve().parent.parent
 
 
-SECRET_KEY = 'django-insecure-b%$-$8odyl+%e=2zfnu(a3#m=r_+doys^0&17u@_bcd%n4kux2'
+SECRET_KEY = 'SECRET_KEY'
 
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
