@@ -1,11 +1,8 @@
-
 from django.contrib.auth import models
 from django.db.models import fields
 from rest_framework import serializers
 from accounts.models import User
 from core.models import *
-
-
 
 
 # class ModelSerializer(serializers.ModelSerializer):
@@ -15,7 +12,6 @@ from core.models import *
 #         #or
 #         # exclude = ['id']
 #         read_only_fields = ['id']
-        
 
 
 # class CustomSerializer(serializers.Serializer):
@@ -38,10 +34,3 @@ from core.models import *
 #     def get_name(self, obj):
 #         name = f"{obj.investor.fname} {obj.investor.lname}"
 #         return name
-
-       
-
-
-
-
-

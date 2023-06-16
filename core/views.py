@@ -1,5 +1,6 @@
 import json
 from core.serializers import *
+
 # from django.shortcuts import get_object_or_404, redirect, render, HttpResponse
 # from django.contrib.auth import authenticate, login, logout
 # from django.utils import timezone
@@ -9,9 +10,9 @@ from rest_framework.response import Response
 from rest_framework.permissions import IsAuthenticated
 from rest_framework import status
 from django.db import IntegrityError
+
 # from accounts.models import User
 from rest_framework.pagination import PageNumberPagination
-
 
 
 # @api_view(["POST"])
@@ -31,14 +32,10 @@ from rest_framework.pagination import PageNumberPagination
 #     return Response({'message': 'success'}, status = status.HTTP_200_OK)
 
 
-
 # @api_view(["POST"])
 # @permission_classes((IsAuthenticated, ))
 # def profile_api(request):
 #     return Response({"fname" : request.user.fname, "lname" : request.user.lname, "credit":request.user.credit, "is_investor":(request.user.is_prop_dealer == False)})
-
-
-
 
 
 # @api_view(["POST"])
@@ -52,7 +49,6 @@ from rest_framework.pagination import PageNumberPagination
 #     result_page = paginator.paginate_queryset(ideas, request)
 #     serializer = ProjectSerializer(result_page, many=True)
 #     return paginator.get_paginated_response(serializer.data)
-
 
 
 # @api_view(["POST"])
@@ -80,7 +76,6 @@ from rest_framework.pagination import PageNumberPagination
 #         return Response({"message": str(e)}, status=status.HTTP_400_BAD_REQUEST)
 
 
-
 # @api_view(["POST"])
 # @permission_classes((IsAuthenticated, ))
 # def api_recieves_form_data(request, id):
@@ -95,9 +90,3 @@ from rest_framework.pagination import PageNumberPagination
 #     except Exception as e:
 #         print(e)
 #         return Response({"message": str(e)}, status=status.HTTP_400_BAD_REQUEST)
-
-
-
-
-
-
