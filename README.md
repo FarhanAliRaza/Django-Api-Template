@@ -9,3 +9,10 @@
 1. Sample different type of serializers
 
 
+## How to setup
+``` bash
+  git clone git@github.com:FarhanAliRaza/Django-Rest-Framework-Temaplte-JWT-and-Snippets.git
+  cd Django-Rest-Framework-Temaplte-JWT-and-Snippets
+  rm -r .git or # delete .git folder on windows
+```
+Rename the folder and start your own adventure 🎇
