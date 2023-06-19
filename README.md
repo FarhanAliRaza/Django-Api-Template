@@ -11,8 +11,8 @@
 
 ## How to setup
 ``` bash
-  git clone git@github.com:FarhanAliRaza/Django-Rest-Framework-Template-JWT-And-Snippets.git
-  cd Django-Rest-Framework-Template-JWT-And-Snippets
+  git clone git@github.com:FarhanAliRaza/Django-Api-Template.git
+  cd Django-Api-Template
   rm -r .git or # delete .git folder on windows
 ```
 Rename the folder and start your own adventure 🎇
